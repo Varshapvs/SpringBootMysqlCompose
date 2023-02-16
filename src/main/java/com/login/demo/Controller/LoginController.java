@@ -26,6 +26,7 @@ public class LoginController {
 }
 }
 
+
     @GetMapping("/getAllDetails")
     public ResponseEntity<?> getAllUserDetails() throws Exception{
 
