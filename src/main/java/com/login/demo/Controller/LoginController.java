@@ -28,6 +28,8 @@ public class LoginController {
 
     @GetMapping("/getAllDetails")
     public ResponseEntity<?> getAllUserDetails() throws Exception{
+
+        System.out.println("Hai check connection");
         return new ResponseEntity<>(loginService.getAllDetails(),HttpStatus.OK);
     }
 
